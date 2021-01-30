@@ -9,8 +9,6 @@ import profileRoutes from "./routes/profile.js";
 
 const app = express();
 
-// mongodb+srv://aarush123:<password>@mern-cluster.4lhno.mongodb.net/<dbname>?retryWrites=true&w=majority
-
 // routes
 
 app.use("/auth", authRoutes);
