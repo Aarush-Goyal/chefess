@@ -4,11 +4,11 @@ const Schema = mongoose.Schema;
 
 // user schema
 
-const UserSchema = new Schema({
-  name: {
+const userSchema = new Schema({
+  googleId: {
     type: String,
     required: true,
   },
 });
 
-export default UserSchema;
+mongoose.model("users", userSchema);
