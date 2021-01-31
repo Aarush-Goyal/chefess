@@ -8,7 +8,7 @@
 <br>
 <p align="center">The power to spread joy and love through food. Good food only tastes good, but great food makes you feel good. And great food is what Chefess promises to deliver.</p>
 
-[![Everything Is AWESOME](./ui-designs/videothumbnail.png)](https://youtu.be/qSryWgCjg9c "Everything Is AWESOME")
+[![Everything Is AWESOME](./ui-designs/videothumbnail.png)](https://youtu.be/qSryWgCjg9c "Chefes - Homemade Goodness")
 
 ## Tech Stack
 
