@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/cart" component={Cart} />
+        <Route path="/cart" exact component={Cart} />
       </Switch>
     </Router>
   );
