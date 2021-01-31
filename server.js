@@ -5,7 +5,7 @@ import cors from "cors";
 import keys from "./config/keys.js";
 import passport from "passport";
 import cookieSession from "cookie-session";
-
+import path from "path";
 // models and controllers
 import "./models/Users.js";
 import "./controllers/auth.js";
@@ -31,6 +31,14 @@ app.use(bodyparser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
 const CONNECTION_URL = keys.CONNECTION_URL;
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"))
+  });
+}
+
 const PORT = process.env.PORT || 5000;
 
 mongoose

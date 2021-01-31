@@ -7,7 +7,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run client\" \"nodemon server.js\""
+    "dev": "concurrently \"npm run client\" \"nodemon server.js\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
