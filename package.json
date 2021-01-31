@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "client": ""
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run client\" \"nodemon server.js\""
   },
   "keywords": [],
   "author": "",
