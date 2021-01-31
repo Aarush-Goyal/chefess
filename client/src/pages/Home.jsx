@@ -1,14 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div classNameName="page">
       <div className="header">
-        <button className="chef_button">Are You a Chef?</button>
-        <button className="login">
+        <Link href="/are-you-a-chef" className="chef_button">
+          Are You a Chef?
+        </Link>
+        <a href="/auth/google" className="login">
           <p className="logintext">Login/Sign Up</p>
-        </button>
+        </a>
       </div>
       <div className="main">
         <img src="/mainbgimage.svg" alt="text" className="imgmain" />
