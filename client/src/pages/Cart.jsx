@@ -1,16 +1,18 @@
 import React from "react";
-import "./Cart.css"
+import "./Cart.css";
 const Cart = () => {
   return (
     <div className="cart">
       <div className="auto-flex2">
         <div className="auto-flex">
           <img
+            alt="chefess"
             className="chefesslogo-1"
             src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/chefesslogo-2@2x.png"
           />
           <div className="overlap-group">
             <img
+              alt="chefess"
               className="search-bar-default"
               onclick=""
               src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/search-bar-default-3@2x.svg"
@@ -27,21 +29,25 @@ const Cart = () => {
             Community
           </div>
           <img
+            alt="chefess"
             className="rectangle"
             src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/rectangle-1@2x.svg"
           />
           <div className="user-24px">
             <img
+              alt="chefess"
               className="ellipse"
               src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/ellipse@2x.svg"
             />
             <img
+              alt="chefess"
               className="intersect"
               src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/intersect@2x.svg"
             />
           </div>
         </div>
         <img
+          alt="chefess"
           className="line-1"
           src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/line-2-1@1x.svg"
         />
@@ -193,16 +199,19 @@ const Cart = () => {
                 Follow Us!
               </div>
               <img
+                alt="chefess"
                 className="vector"
                 src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/vector-91@2x.svg"
               />
               <div className="instagram">
                 <img
+                  alt="chefess"
                   className="vector-1"
                   src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/vector-93@2x.svg"
                 />
               </div>
               <img
+                alt="chefess"
                 className="vector-2"
                 src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/vector-103@2x.svg"
               />
@@ -212,6 +221,7 @@ const Cart = () => {
                 Join Our Newsletter
               </div>
               <img
+                alt="chefess"
                 className="search-bar-default-1"
                 src="https://anima-uploads.s3.amazonaws.com/projects/60167abff78fa590493fb6ee/releases/60167e4761c5c6a19e304ed0/img/search-bar-default-1@2x.svg"
               />
